@@ -1,0 +1,17 @@
+项目完成后任务：
+每日练习回顾js学习内容且敲代码
+1.练习js每日敲代码，包括练习响应式原理，练习手写promise
+day 1 项目配置以及主体架构的搭建
+day 2 封装axios          拦截器的使用复习   .request.use()  .response.use()
+day 3  封装登录页面组件   遇到问题图标不显示
+day 4  登录页表单绑定以及获取的构建，验证表单的规则 记住密码绑定  2.48  账号密码验证用validate，登录验证逻辑在各自的登录界面写
+day 5 本地保存的方法：local storage ，setionstorage，也可以保存到本地数据库中
+缓存的方法： window.localStorage.setItem / getItem / removeItem / clear   set传入两个参数一个是key 一个是value ，其他方法都是只传一个key，clear是清空所有缓存直接调用方法即可，休息了半天
+day 6  token userINfo userMenus 这种数据一般保存在vuex中比较合适，登录逻辑也放到vuex里面，然后用dispatch调用actions就可以了,vuex引入模块最好给一个命名空间 namespaced：true
+el-tabs有v-model可以绑定是手机登录还是账号登录 jsontots 216
+day 7  跨域和登录逻辑 登陆后刷新，判断token，没有就返回登录页面，在template中使用别名~@，等于在script@
+：高级组件封装，动态路由40  
+day 8 解决了相关bug  添加面包屑，学习了函数，作用域链，执行上下文
+day 9 解决element-plus的bug，新的引入方式
+day 10 学习了闭包，中午再看看代码，解决了获取不到界面的bug
+day 11 
